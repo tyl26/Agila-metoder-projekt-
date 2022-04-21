@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section>
+        <h1 className="welcomeIntro">Learn about Scrum</h1>
+        <img className="startImg" src="https://cdni.iconscout.com/illustration/premium/thumb/scrum-meeting-4719778-3920253.png" />
+
+      </section>
+
+<button>Get Learning</button>
     </div>
   );
 }
