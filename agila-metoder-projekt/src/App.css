@@ -6,6 +6,7 @@
   max-width: 450px;
   min-height: 600px;
   margin: 0 auto;
+  border-radius: 2rem;
 }
 
 .App-logo {
@@ -55,4 +56,8 @@
   color: #293B8D;
   padding-top: 3rem;
   font-size: 2rem;
+}
+.scrumImg{
+  width: 450px;
+  margin-top: 6rem;
 }

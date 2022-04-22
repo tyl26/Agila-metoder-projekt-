@@ -1,17 +1,22 @@
 import './App.css';
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import AlternativList from './components/AlternativList';
+import StartPage from './components/Startpage';
+import Scrum from './components/Scrum';
 
 function App() {
   return (
-    <div className="App">
-      <section>
-        <h1 className="welcomeIntro">Learn about Scrum</h1>
-        <img className="startImg" src="https://cdni.iconscout.com/illustration/premium/thumb/scrum-meeting-4719778-3920253.png" />
+    <Router>
+      <main className='App'>
+        <Routes>
+          <Route exakt path='/' element={<StartPage />}></Route>
+          <Route exakt path='/AlternativList' element={<AlternativList />}></Route>
+          <Route exakt path='/scrum' element={<Scrum />}></Route>
+        </Routes>
 
-      </section>
-
-<button>Get Learning</button>
-    </div>
+      
+    </main>
+    </Router >
   );
 }
 
