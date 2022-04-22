@@ -10,12 +10,24 @@ function AlternativList() {
             <Link to='/scrum'>
                 <button>What is Scrum?</button>
             </Link>
-            <button>All Roles</button>
-            <button>Backlog</button>
-            <button>Sprint</button>
-            <button>All for events</button>
-            <button>Agil Estamation</button>
-            <button>Scrum Artefacts</button>
+            <Link to='/Allroles'>
+                <button>All Roles</button>
+            </Link>
+            <Link to='/Backlog'>
+                <button>Backlog</button>
+            </Link>
+            <Link to='/sprint'>
+                <button>Sprint</button>
+            </Link>
+            <Link to='/Events'>
+                <button>All for events</button>
+            </Link>
+            <Link to='/agileest'>
+                <button>Agil Estamation</button>
+            </Link>
+            <Link to='/artefacts'>
+                <button>Scrum Artefacts</button>
+            </Link>
         </section>
     );
 }
