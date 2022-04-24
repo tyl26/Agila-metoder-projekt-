@@ -20,6 +20,7 @@ function App() {
           <Route exakt path='/backlog' element={<Backlog />}></Route>
           <Route exakt path='/sprint' element={<Sprint />}></Route>
           <Route exakt path='/fourEvents' element={<Events/>}></Route>
+          <Route exakt path='/artefacts' element={<ScrumArtefacts/>}></Route>
         </Routes>
 
       
