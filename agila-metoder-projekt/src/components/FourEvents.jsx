@@ -1,7 +1,7 @@
 function Events() {
     return (
         <section>
-            <h1> What are the Sprint events?</h1>
+            <h1> What are the Sprint four events?</h1>
 
             <h5>Sprint Planning</h5>
             <p>Sprint planning is an event in scrum that kicks off the sprint.
