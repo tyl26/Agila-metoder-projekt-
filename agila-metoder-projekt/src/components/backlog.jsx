@@ -35,7 +35,7 @@ function Backlog() {
 
             <section className="btns">
                 <Link to='/roles'> <button>&#171;</button></Link>
-                <Link to='/backlog'> <button>&#187;</button></Link>
+                <Link to='/sprint'> <button>&#187;</button></Link>
             </section>
         </section>
     );
