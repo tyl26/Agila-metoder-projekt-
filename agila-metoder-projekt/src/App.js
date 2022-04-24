@@ -5,7 +5,7 @@ import StartPage from './components/Startpage';
 import Scrum from './components/Scrum';
 import AllRoles from './components/AllRoles';
 import Backlog from './components/backlog';
-import Sprint from './components/sprint';
+import Sprint from './components/Sprint';
 
 function App() {
   return (
