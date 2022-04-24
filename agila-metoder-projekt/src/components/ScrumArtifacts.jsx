@@ -15,7 +15,7 @@ function ScrumArtirfacts() {
 
                 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their stakeholders.</p>
 
-                <img src="https://images.prismic.io/superpupertest/5c9293dd-c287-46b8-8aa5-32552a021247_Frame+2569.png?auto=compress,format" alt="scrum artifacts" />
+                <img className="artifactsImg" src="https://images.prismic.io/superpupertest/5c9293dd-c287-46b8-8aa5-32552a021247_Frame+2569.png?auto=compress,format" alt="scrum artifacts" />
         </section>
     );
 }
