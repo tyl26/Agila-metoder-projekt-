@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Sprint() {
     return (
         <section>
@@ -9,7 +11,7 @@ function Sprint() {
                 Sprint belong to one of the fove events in scrum, How ever sprint has a speciall case, where sprint is container 
                 where the remaining four events happens within the sprint.   </p>
                  <img src="https://www.toolsqa.com/gallery/Agile%20-%20Scrum/1.what%20is%20sprint%20-%20Sprint%20Cycle.png" alt="sprint Img" />
-                 
+
                  <h6>See next page to read the remaining four events.</h6>
 
                  <section className="btns">
