@@ -8,7 +8,7 @@ function Sprint() {
                 Sprint are fixed leght events of one month or less. 
                 In ohter words sprint is where you break down big and complex projects into bite-sized pieces.
                 Which makes thing more manageable and alow the team work more faster while mainting the great quality.
-                Sprint belong to one of the fove events in scrum, How ever sprint has a speciall case, where sprint is container 
+                Sprint belong to one of the fove events in scrum, However sprint has a special case, where sprint is container 
                 where the remaining four events happens within the sprint.   </p>
                  <img className="sprintImg" src="https://turboscrum.com/wp-content/uploads/2021/10/The-Five-Scrum-Events.png" alt="sprint Img" />
 

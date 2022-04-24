@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 function Events() {
     return (
         <section>
-            <h1> What are the Sprint four events?</h1>
+            <h1> What are the four sprint events?</h1>
 
             <h5>Sprint Planning</h5>
             <p>Sprint planning is an event in scrum that kicks off the sprint.
                 The purpose of sprint planning is to define what can be delivered in the sprint and how that work will be achieved.
                 Sprint planning is done in collaboration with the whole scrum team.   Sprint planning should be constrained no more than two hours for each week of the sprint.
-                So, for example, the sprint planning meeting for a two-week sprint would be no longer than four hours. It is Scrum masters job to make sure the meeting goes smoothly</p>
+                So, for example, the sprint planning meeting for a two-week sprint would be no longer than four hours. It is Scrum masters job to make sure the meeting goes smoothly.</p>
 
             <h5> Daily Scrum</h5>
             <p>The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
