@@ -23,16 +23,16 @@ function Backlog() {
 
             <h2>The product backlog is made up of three different types of items.</h2>
 
-            User:  stories, which are high-level descriptions of a feature, told from the perspective of the end-user of the product.
-            Bugs:  are problems that arise that the product owner wants to be fixed.
-            Tasks:  which are assigned to the scrum team to complete.
+            <h6>Stories:</h6> <p> which are high-level descriptions of a feature, told from the perspective of the end-user of the product. </p>
+            <h6>Bugs:</h6>  <p>are problems that arise that the product owner wants to be fixed. </p>
+            <h6>Tasks:</h6> <p> which are assigned to the scrum team to complete.</p>
 
             <p>
                 The backlog grows as the product is being built.
                 When changes are added they can include more detail, estimates or a change in priority.
                 The product owner and the team are regularly working on refining the product backlog. This can occur at any time.</p>
 
-                    
+
             <section className="btns">
                 <Link to='/roles'> <button>&#171;</button></Link>
                 <Link to='/backlog'> <button>&#187;</button></Link>
