@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AllRoles() {
     return (
         <section>
@@ -50,6 +52,14 @@ function AllRoles() {
                 <li>5. Inspect and Adapt the Product and Process</li>
 
             </ul>
+
+
+            
+            <section className="btns">
+                <Link to='/scrum'> <button>&#171;</button></Link>
+                <Link to='/backlog'> <button>&#187;</button></Link>
+                
+            </section>
 
         </section>
     );

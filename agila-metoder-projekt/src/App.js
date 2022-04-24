@@ -4,6 +4,7 @@ import AlternativList from './components/AlternativList';
 import StartPage from './components/Startpage';
 import Scrum from './components/Scrum';
 import AllRoles from './components/AllRoles';
+import Backlog from './components/backlog';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exakt path='/AlternativList' element={<AlternativList />}></Route>
           <Route exakt path='/scrum' element={<Scrum />}></Route>
           <Route exakt path='/roles' element={<AllRoles />}></Route>
+          <Route exakt path='/backlog' element={<Backlog />}></Route>
         </Routes>
 
       

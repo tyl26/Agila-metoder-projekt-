@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Backlog() {
     return (
         <section>
@@ -15,19 +17,26 @@ function Backlog() {
                 then review the backlog before eacg iteration planning meeting to make sure that the prioritization is correct and the feedback
                 from last iteration has been incorporated. A regular review of the backlog can often be called "backlog groomig" or some use the term backlog refinement  </p>
 
-            <p>It is not a list of unchangeable tasks, and it often evolves over time. For example, if there is a change in the business environment, marketing conditions or technical demands, the product backlog will reflect those changes. 
+            <p>It is not a list of unchangeable tasks, and it often evolves over time. For example, if there is a change in the business environment, marketing conditions or technical demands, the product backlog will reflect those changes.
                 Product backlogs are usually represented using a scrum board.
-                
-                <h2>The product backlog is made up of three different types of items.</h2>
+            </p>
 
-                User:  stories, which are high-level descriptions of a feature, told from the perspective of the end-user of the product.
-                Bugs:  are problems that arise that the product owner wants to be fixed.
-                Tasks:  which are assigned to the scrum team to complete.
+            <h2>The product backlog is made up of three different types of items.</h2>
 
-                
-                The backlog grows as the product is being built. 
+            User:  stories, which are high-level descriptions of a feature, told from the perspective of the end-user of the product.
+            Bugs:  are problems that arise that the product owner wants to be fixed.
+            Tasks:  which are assigned to the scrum team to complete.
+
+            <p>
+                The backlog grows as the product is being built.
                 When changes are added they can include more detail, estimates or a change in priority.
                 The product owner and the team are regularly working on refining the product backlog. This can occur at any time.</p>
+
+                    
+            <section className="btns">
+                <Link to='/roles'> <button>&#171;</button></Link>
+                <Link to='/backlog'> <button>&#187;</button></Link>
+            </section>
         </section>
     );
 }
