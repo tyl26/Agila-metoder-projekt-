@@ -10,7 +10,7 @@ function Sprint() {
                 Which makes thing more manageable and alow the team work more faster while mainting the great quality.
                 Sprint belong to one of the fove events in scrum, How ever sprint has a speciall case, where sprint is container 
                 where the remaining four events happens within the sprint.   </p>
-                 <img src="https://www.toolsqa.com/gallery/Agile%20-%20Scrum/1.what%20is%20sprint%20-%20Sprint%20Cycle.png" alt="sprint Img" />
+                 <img className="sprintImg" src="https://turboscrum.com/wp-content/uploads/2021/10/The-Five-Scrum-Events.png" alt="sprint Img" />
 
                  <h6>See next page to read the remaining four events.</h6>
 

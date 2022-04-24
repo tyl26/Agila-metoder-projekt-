@@ -57,8 +57,10 @@
   padding-top: 3rem;
   font-size: 2rem;
 }
-.scrumImg,
-.devTeam{
+.scrumImg{
   width: 450px;
   margin-top: 6rem;
+}
+.devTeam,.sprintImg{
+  width: 400px;
 }
