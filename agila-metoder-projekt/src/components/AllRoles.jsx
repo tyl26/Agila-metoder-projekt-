@@ -33,7 +33,7 @@ function AllRoles() {
                 Among the key functions development team members perform are planning, testing, analysis, programming, and many other activities throughout the course of the project.
                 The development team should be able to self-organize so they can make decisions to get work done.</p>
 
-            <img src="https://wac-cdn.atlassian.com/dam/jcr:f085fea0-5149-4b9a-9fe1-7e9fd32dc0da/Scrum-Development%20team-revised.png?cdnVersion=309" alt="" />
+            <img className="devTeam" src="https://wac-cdn.atlassian.com/dam/jcr:f085fea0-5149-4b9a-9fe1-7e9fd32dc0da/Scrum-Development%20team-revised.png?cdnVersion=309" alt="" />
 
             <h5>In reality..</h5>
             <p>Individual Development Team members may have specialized skills and areas of focus, but accountability belongs to the Development Team as a whole. which means

@@ -13,8 +13,8 @@ function Scrum() {
             <img className="scrumImg" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/scrumorg-scrum-framework-3000.png" alt="scrum process" />
 
             <section className="">
-                <Link to='roles'> <button>&#171;</button></Link>
-                <Link to='/AlternativList'> <button>&#187;</button></Link>
+                <Link to='/AlternativList'> <button>&#171;</button></Link>
+                <Link to='/roles'> <button>&#187;</button></Link>
                 
             </section>
         </section>
