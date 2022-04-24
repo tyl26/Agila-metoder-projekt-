@@ -45,9 +45,9 @@ function Events() {
                 The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a one-month Sprint.
                 For shorter Sprints, the event is usually shorter.</p>
 
-                <section className="btns">
+            <section className="btns">
                 <Link to='/sprint'> <button>&#171;</button></Link>
-                <Link to='/artefacts'> <button>&#187;</button></Link>
+                <Link to='/artifacts'> <button>&#187;</button></Link>
             </section>
 
         </section>
