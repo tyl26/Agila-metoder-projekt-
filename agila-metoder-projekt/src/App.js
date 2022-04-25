@@ -22,6 +22,7 @@ function App() {
           <Route exakt path='/sprint' element={<Sprint />}></Route>
           <Route exakt path='/fourEvents' element={<Events />}></Route>
           <Route exakt path='/artifacts' element={<ScrumArtirfacts />}></Route>
+          <Route exakt path='/agileest' element={<ScrumArtirfacts />}></Route>
         </Routes>
 
 
