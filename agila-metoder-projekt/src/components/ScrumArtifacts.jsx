@@ -21,7 +21,7 @@ function ScrumArtirfacts() {
 
             <section className="btns">
                 <Link to='/fourEvents'> <button>&#171;</button></Link>
-                {/* <Link to='/sprint'> <button>&#187;</button></Link> */}
+                <Link to='/artifacts'> <button>&#187;</button></Link>
             </section>
         </section>
     );
