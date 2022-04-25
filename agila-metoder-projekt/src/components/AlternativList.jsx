@@ -29,6 +29,9 @@ function AlternativList() {
             <Link to='/agileest'>
                 <button>Agil Estamation</button>
             </Link>
+            <Link to='/EndPage'>
+                <button>Take a quiz!</button>
+            </Link>
         </section>
     );
 }
