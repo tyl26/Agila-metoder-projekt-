@@ -8,6 +8,7 @@ import Backlog from './components/backlog';
 import Sprint from './components/Sprint';
 import Events from './components/FourEvents';
 import ScrumArtirfacts from './components/ScrumArtifacts';
+import AgileEst from './components/AgileEst';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Route exakt path='/sprint' element={<Sprint />}></Route>
           <Route exakt path='/fourEvents' element={<Events />}></Route>
           <Route exakt path='/artifacts' element={<ScrumArtirfacts />}></Route>
-          <Route exakt path='/agileest' element={<ScrumArtirfacts />}></Route>
+          <Route exakt path='/agileest' element={<AgileEst />}></Route>
         </Routes>
 
 
