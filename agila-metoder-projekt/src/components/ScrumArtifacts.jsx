@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 function ScrumArtirfacts() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
+
             <h1>What is Scrum Artefacts?</h1>
 
             <p>Scrum’s artifacts represent work or value. They are designed to maximize transparency of key information. Thus, everyone inspecting them has the same basis for adaptation.
 
                 Each artifact contains a commitment to ensure it provides information that enhances transparency and focus against which progress can be measured:
                 <ul>
-                <li> For the Product Backlog it is the Product Goal. This is where the " what to do"</li>
+                    <li> For the Product Backlog it is the Product Goal. This is where the " what to do"</li>
                     <li> For the Sprint Backlog it is the Sprint Goal. This is where the " what to take now + how"</li>
                     <li> For the Increment it is the Definition of Done.  This is where the " what gets done"
                     </li>

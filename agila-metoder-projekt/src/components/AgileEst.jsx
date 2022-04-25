@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 function AgileEst() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
+
             <h1>What is Agile Est</h1>
             <p>
                 Agile estimation is the process for estimating the effort required to complete a prioritized task in the product backlog. This effort is usually measured with respect to the time it will take to complete that task, which, in turn, leads to accurate sprint planning.
@@ -39,7 +41,7 @@ function AgileEst() {
                 </li>
 
             </ul>
-            <Link to='/agileest'> <button>&#171;</button></Link>
+            <Link to='/artifacts'> <button>&#171;</button></Link>
             <Link to='/EndPage'> <button>&#187;</button></Link>
 
         </section>

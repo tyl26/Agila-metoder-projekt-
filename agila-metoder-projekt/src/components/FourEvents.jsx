@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 function Events() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
+
             <h1> What are the four sprint events?</h1>
 
             <h5>Sprint Planning</h5>

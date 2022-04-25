@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 function AllRoles() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
+
             <h1 className="title"> What are the roles?</h1>
             <p>There are three roles in scrum, the Product owner, Scrum Master and the development team.
                 Each role have their purpose and responsibility.
@@ -54,11 +56,11 @@ function AllRoles() {
             </ul>
 
 
-            
+
             <section className="btns">
                 <Link to='/scrum'> <button>&#171;</button></Link>
                 <Link to='/backlog'> <button>&#187;</button></Link>
-                
+
             </section>
 
         </section>

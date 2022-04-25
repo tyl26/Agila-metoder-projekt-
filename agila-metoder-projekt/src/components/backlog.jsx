@@ -3,11 +3,9 @@ import { Link } from "react-router-dom";
 function Backlog() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
+
             <h1 className="title"> What is Backlog?</h1>
-
-
-
-
             <p>Backlog in scrum is very important. It is a priotize list of work for the development team to follow. It is like a to do list.
                 The most Important items are shown at the top of the product baklog so the team knows what to deliver first.
                 Development team doesn't work through the backlog at the product owner's pace and the product owner isn't

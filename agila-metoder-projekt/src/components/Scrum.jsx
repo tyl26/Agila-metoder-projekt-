@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function Scrum() {
     return (
         <section>
+            <Link to='/AlternativList'><button>Start</button></Link>
             <h1 className="title"> What is Scrum?</h1>
 
             <p className="para" >
