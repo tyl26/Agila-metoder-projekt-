@@ -19,7 +19,7 @@ function Backlog() {
                 Product backlogs are usually represented using a scrum board.
             </p>
 
-            <h2>The product backlog is made up of three different types of items.</h2>
+            <h5>The product backlog is made up of three different types of items.</h5>
 
             <h6>Stories:</h6> <p> which are high-level descriptions of a feature, told from the perspective of the end-user of the product. </p>
             <h6>Bugs:</h6>  <p>are problems that arise that the product owner wants to be fixed. </p>
