@@ -65,6 +65,7 @@
 
 .devTeam,
 .sprintImg,
-.artifactsImg {
+.artifactsImg,
+.storyPoints {
   width: 400px;
 }
