@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function AgileEst() {
     return (
         <section>
@@ -10,13 +12,13 @@ function AgileEst() {
 
             <h6>Story point</h6>
             <p>Story point is a number that helps estimate the difficulty of building a user story successfully.
-            This difficulty could be anything related to the complexities, risks, and efforts involved.</p>
+                This difficulty could be anything related to the complexities, risks, and efforts involved.</p>
 
             <p>You don’t give an exact number explaining how complex the story is and how long it’ll take to develop – you give a rough “estimate”.
 
-            We are good at comparing size, so estimating a story using Fibonacci series sequence (0, 1, 2, 3, 5, 8, 13, 20, 40, and 100)
-            gives more clarity of its complexity and relative sizing in terms of development.
-            It is helpful to have a set of stories nearby to make a comparison and recommendation to set priority.</p>
+                We are good at comparing size, so estimating a story using Fibonacci series sequence (0, 1, 2, 3, 5, 8, 13, 20, 40, and 100)
+                gives more clarity of its complexity and relative sizing in terms of development.
+                It is helpful to have a set of stories nearby to make a comparison and recommendation to set priority.</p>
 
             <img className="storyPoints" src="https://www.actitime.com/wp-content/uploads/2020/06/relative-point-values-story-point-estimation.png" alt="story points" />
 
@@ -27,7 +29,7 @@ function AgileEst() {
 
                 <li>Causing discipline across the Agile team
                 </li>
-                
+
                 <li>Predicting the approximate time it will take to finish a project
                 </li>
 
@@ -37,7 +39,8 @@ function AgileEst() {
                 </li>
 
             </ul>
-
+            <Link to='/agileest'> <button>&#171;</button></Link>
+            <Link to='/EndPage'> <button>&#187;</button></Link>
 
         </section>
     );

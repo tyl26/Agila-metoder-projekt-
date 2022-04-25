@@ -10,4 +10,4 @@ function EndPage() {
      );
 }
 
-export default Endpage;
+export default EndPage;
