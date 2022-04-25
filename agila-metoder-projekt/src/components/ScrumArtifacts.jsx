@@ -9,7 +9,7 @@ function ScrumArtirfacts() {
 
                 Each artifact contains a commitment to ensure it provides information that enhances transparency and focus against which progress can be measured:
                 <ul>
-                    <li> For the Product Backlog it is the Product Goal. This is where the " what to do"</li>
+                <li> For the Product Backlog it is the Product Goal. This is where the " what to do"</li>
                     <li> For the Sprint Backlog it is the Sprint Goal. This is where the " what to take now + how"</li>
                     <li> For the Increment it is the Definition of Done.  This is where the " what gets done"
                     </li>
