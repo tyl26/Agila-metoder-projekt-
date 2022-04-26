@@ -9,16 +9,18 @@ function AlternativList() {
             <section className="AltBtns">
                 <Link to='/scrum'>
                     <button>Start Guide from the beginning</button>
+                </Link>
+                <Link to='/scrum'>
                     <button>What is Scrum?</button>
                 </Link>
                 <Link to='/roles'>
-                    <button>All Roles</button>
+                    <button>What are the roles?</button>
                 </Link>
                 <Link to='/backlog'>
-                    <button>Backlog</button>
+                    <button>What is Backlog?</button>
                 </Link>
                 <Link to='/sprint'>
-                    <button>Sprint</button>
+                    <button>What is Sprint?</button>
                 </Link>
                 <Link to='/fourEvents'>
                     <button>All four events</button>
@@ -33,7 +35,7 @@ function AlternativList() {
                     <button>Take a quiz!</button>
                 </Link>
             </section>
-        </section>
+        </section >
     );
 }
 
