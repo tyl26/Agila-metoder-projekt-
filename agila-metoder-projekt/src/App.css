@@ -3,10 +3,11 @@
 .App {
   text-align: center;
   background-color: #F8D1EA;
-  max-width: 450px;
+  max-width: 400px;
   min-height: 600px;
   margin: 0 auto;
   border-radius: 2rem;
+  padding: 2rem;
 }
 
 .App-logo {
@@ -47,7 +48,7 @@
 
 .startImg {
   width: 510px;
-  margin-left: -2rem;
+  margin-left: -3.5rem;
   margin-top: 2rem;
 }
 
@@ -55,19 +56,23 @@
 h1 {
   font-family: 'Lemon', cursive;
   color: #293B8D;
-  padding-top: 3rem;
+  padding-top: 1rem;
   font-size: 2rem;
 }
 
-h2,h3,h5,
+h2,
+h3,
+h5,
 h6 {
   font-family: 'Lemon', cursive;
   color: #293B8D;
+  padding: .8rem;
 }
 
 .scrumImg {
-  width: 450px;
-  margin-top: 6rem;
+  width: 440px;
+  margin-left: -1rem;
+  margin-top: 3rem;
 }
 
 .devTeam,
@@ -75,4 +80,41 @@ h6 {
 .artifactsImg,
 .storyPoints {
   width: 400px;
+}
+
+p, li {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.5rem;
+  letter-spacing: .1rem;
+}
+li{
+  font-weight: 600;
+  text-align: left;
+  line-height: 2.2rem;
+}
+
+button {
+  background-color: #F03DA7;
+  border: none;
+  border-radius: 1rem;
+  padding: .9rem;
+  font-family: 'Lemon', cursive;
+  color: white;
+  letter-spacing: .1rem;
+}
+button:hover{
+  background-color: white;
+  color: #F03DA7;
+  cursor: pointer;
+}
+a{
+  text-decoration:  none;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: black;
+  /* border: 1px #F03DA7 solid;
+  display: flex;
+  flex-direction: column; */
 }
