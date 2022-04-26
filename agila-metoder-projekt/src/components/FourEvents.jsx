@@ -48,8 +48,8 @@ function Events() {
                 For shorter Sprints, the event is usually shorter.</p>
 
             <section className="btns">
-                <Link to='/sprint'> <button>&#171;</button></Link>
-                <Link to='/artifacts'> <button>&#187;</button></Link>
+                <Link to='/sprint'> <button>prev</button></Link>
+                <Link to='/artifacts'> <button>next</button></Link>
             </section>
 
         </section>

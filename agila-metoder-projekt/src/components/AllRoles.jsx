@@ -58,8 +58,8 @@ function AllRoles() {
 
 
             <section className="btns">
-                <Link to='/scrum'> <button>&#171;</button></Link>
-                <Link to='/backlog'> <button>&#187;</button></Link>
+                <Link to='/scrum'> <button>prev</button></Link>
+                <Link to='/backlog'> <button>next</button></Link>
 
             </section>
 

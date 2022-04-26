@@ -22,8 +22,8 @@ function ScrumArtirfacts() {
             <img className="artifactsImg" src="https://images.prismic.io/superpupertest/5c9293dd-c287-46b8-8aa5-32552a021247_Frame+2569.png?auto=compress,format" alt="scrum artifacts" />
 
             <section className="btns">
-                <Link to='/fourEvents'> <button>&#171;</button></Link>
-                <Link to='/agileest'> <button>&#187;</button></Link>
+                <Link to='/fourEvents'> <button>prev</button></Link>
+                <Link to='/agileest'> <button>next</button></Link>
             </section>
         </section>
     );

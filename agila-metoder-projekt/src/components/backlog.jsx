@@ -32,8 +32,8 @@ function Backlog() {
 
 
             <section className="btns">
-                <Link to='/roles'> <button>&#171;</button></Link>
-                <Link to='/sprint'> <button>&#187;</button></Link>
+                <Link to='/roles'> <button>prev</button></Link>
+                <Link to='/sprint'> <button>next</button></Link>
             </section>
         </section>
     );

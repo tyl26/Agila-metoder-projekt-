@@ -41,9 +41,11 @@ function AgileEst() {
                 </li>
 
             </ul>
-            <Link to='/artifacts'> <button>&#171;</button></Link>
-            <Link to='/EndPage'> <button>&#187;</button></Link>
+            <section className="btns" >
 
+                <Link to='/artifacts'> <button>prev</button></Link>
+                <Link to='/EndPage'> <button>next</button></Link>
+            </section>
         </section>
     );
 }

@@ -17,8 +17,8 @@ function Sprint() {
             <h6>See next page to read the remaining four events.</h6>
 
             <section className="btns">
-                <Link to='/backlog'> <button>&#171;</button></Link>
-                <Link to='/fourEvents'> <button>&#187;</button></Link>
+                <Link to='/backlog'> <button>prev</button></Link>
+                <Link to='/fourEvents'> <button>next</button></Link>
             </section>
         </section>
     );
