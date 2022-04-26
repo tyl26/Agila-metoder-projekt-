@@ -99,7 +99,7 @@ button {
   background-color: #F03DA7;
   border: none;
   border-radius: 1rem;
-  padding: .9rem;
+  padding: .6rem;
   font-family: 'Lemon', cursive;
   color: white;
   letter-spacing: .1rem;
@@ -109,12 +109,30 @@ button:hover{
   color: #F03DA7;
   cursor: pointer;
 }
-a{
+.quiz{
   text-decoration:  none;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   color: black;
-  /* border: 1px #F03DA7 solid;
+  border: 1px #F03DA7 solid;
+  border-radius: 1rem;
   display: flex;
-  flex-direction: column; */
+  flex-direction: column;
+  padding: 1rem;
+  width: 150px;
+  margin: 0 auto 5rem;
+}
+.quiz:hover{
+  background-color: #F03DA7;
+  color: white;
+}
+.btns{
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.AltBtns{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
